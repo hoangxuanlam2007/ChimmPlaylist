@@ -4,7 +4,8 @@
   --primary-color: #4080ff;
   --text-color: rgb(255, 255, 255);
   --alpha-bg: hsl(0deg 0% 100% / 10%);
-  --border-bottom: hsl(0deg 0% 100% / 15%);
+  --border-bottom: hsl(0deg 0% 100% / 20%);
+  --footer: #1e1f26;
 }
 
 ::-webkit-scrollbar {
@@ -37,7 +38,7 @@
 }
 
 body {
-  background-color: #0f1123;
+  background-color: hsl(225deg 10% 8%);
   font-family: 'Inter', sans-serif;
 }
 
@@ -137,10 +138,6 @@ h3 {
   padding: 15 px;
   font-size: 24 px;
   cursor: pointer;
-}
-
-.control .btn:active {
-  color: #164ac2;
 }
 
 .fa-solid, .fas {
@@ -335,6 +332,322 @@ h3 {
   color: #999;
   font-size: 18px;
 }
+
+.mobile-hint {
+  display: none;
+}
+
+/* Chỉnh sửa cho thiết bị di động */
+@media screen and (max-width: 480px) {
+  #volume-hub {
+    display: none;
+  }
+  .mobile-hint {
+    display: block;
+  }
+  .volume-control {
+    display: none;
+  }
+  .fas.fa-volume-down, .fas.fa-volume-up {
+    display: none;
+  }
+  .playlist {
+    margin-top: 430px;
+  }
+}
+
+
+/* Footer */
+
+.footer-distributed{
+	background: rgb(26, 26, 26);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	margin: 0;
+  font-size: 24px;
+}
+
+.footer-distributed h3 span{
+	color:  var(--primary-color);
+  font-size: 24px;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  #ffffff;
+}
+
+.footer-distributed .footer-links a:hover {
+  color: var(--primary-color);
+}
+
+.bullet {
+  margin: 0 5px 0 5px;
+}
+
+.footer-distributed .footer-copyright{
+	color:  #999;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+  /* Enable highlighted text */
+  -webkit-touch-callout: text; /* iOS Safari */
+  -webkit-user-select: text; /* Safari */
+   -khtml-user-select: text; /* Konqueror HTML */
+     -moz-user-select: text; /* Old versions of Firefox */
+      -ms-user-select: text; /* Internet Explorer/Edge */
+          user-select: text; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	color: #ffffff;
+	font-size: 14px;
+	text-align: center;
+	line-height: 42px;
+	vertical-align: middle;
+  margin-right: 10px;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+  font-size: 14px;
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+  /* Enable highlighted text */
+  -webkit-touch-callout: text; /* iOS Safari */
+  -webkit-user-select: text; /* Safari */
+   -khtml-user-select: text; /* Konqueror HTML */
+     -moz-user-select: text; /* Old versions of Firefox */
+      -ms-user-select: text; /* Internet Explorer/Edge */
+          user-select: text; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #fff;
+	text-decoration: none;
+  /* Enable highlighted text */
+  -webkit-touch-callout: text; /* iOS Safari */
+  -webkit-user-select: text; /* Safari */
+   -khtml-user-select: text; /* Konqueror HTML */
+     -moz-user-select: text; /* Old versions of Firefox */
+      -ms-user-select: text; /* Internet Explorer/Edge */
+          user-select: text; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+}
+
+.footer-distributed .footer-center p a:hover{
+	color:  var(--primary-color);
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+  /* Enable highlighted text */
+  -webkit-touch-callout: text; /* iOS Safari */
+  -webkit-user-select: text; /* Safari */
+   -khtml-user-select: text; /* Konqueror HTML */
+     -moz-user-select: text; /* Old versions of Firefox */
+      -ms-user-select: text; /* Internet Explorer/Edge */
+          user-select: text; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+}
+
+.footer-company-about span {
+    /* Enable highlighted text */
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.footer-company-about #sign {
+    /* Enable highlighted text */
+    -webkit-touch-callout: text; /* iOS Safari */
+    -webkit-user-select: text; /* Safari */
+     -khtml-user-select: text; /* Konqueror HTML */
+       -moz-user-select: text; /* Old versions of Firefox */
+        -ms-user-select: text; /* Internet Explorer/Edge */
+            user-select: text; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 24px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.fab.fa-facebook {
+  display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 6px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.fab.fa-youtube {
+  display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 6px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.fab.fa-github {
+  display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 6px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.fab.fa-facebook:hover {
+  color: #2e89ff;
+  background-color: #ffffff;
+}
+
+.fab.fab.fa-youtube:hover {
+  color: red;
+  background-color: #ffffff;
+}
+
+.fab.fa-github:hover {
+  color: #8700d4;
+  background-color: #ffffff;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
 
 /* Disabled Highlight Text */
 body {
