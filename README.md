@@ -12,7 +12,7 @@ const your_variables_name = $("your_element_id_or_class");    //Your element can
   const $ = document.querySelector.bind(document);
   const $$ = document.querySelectorAll.bind(document);
 
-  const PlAYER_STORAGE_KEY = "F8_PLAYER";
+  const PlAYER_STORAGE_KEY = "MUSIC_PLAYER";
 
   const player = $(".player");
   const cd = $(".cd");
