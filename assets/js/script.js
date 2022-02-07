@@ -50,31 +50,31 @@ const app = {
     },
     {
       name: "Chạy Về Khóc Với Anh (Cukak Remix)",
-      singer: "Thanh Hưng",
+      singer: "Erik",
       path: "./music/Chạy Về Khóc Với Anh  ErikCukak Remix Audio Lyrics Video.mp3",
       image: "./assets/img/Chạy về khóc với anh.png"
     },
     {
       name: "Em Là Hoàng Hôn (Frexs Remix)",
-      singer: "Thanh Hưng",
+      singer: "Vang x Cloud 5",
       path: "./music/Em Là Hoàng Hôn Frexs Remix.mp3",
       image: "./assets/img/Em là hoàng hôn.png"
     },
     {
       name: "Liều Thuốc Cho Trái Tim (Cukak Remix)",
-      singer: "Thanh Hưng",
+      singer: "Nguyễn Đình Vũ ft. Neko",
       path: "./music/Liều Thuốc Cho Trái Tim  Nguyễn Đình Vũ ft NekoCukak Remix Official Lyrics Video.mp3",
       image: "./assets/img/Liều thuốc cho trái tim.png"
     },
     {
       name: "Lời Nói Điêu Trên Môi em (Cukak Remix)",
-      singer: "Thanh Hưng",
+      singer: "Đỗ Nguyên Phúc ft. Lil Zpoet",
       path: "./music/Lời Nói Điêu Trên Môi Em  Đỗ Nguyên Phúc ft Lil ZpoetCukak Remix Audio Lyrics Video.mp3",
       image: "./assets/img/Lời nói điêu trên môi em.png"
     },
     {
       name: "Ngại Nói (Cukak Remix)",
-      singer: "Thanh Hưng",
+      singer: "Tú Đào ft. EZ.Fluv x Dứa",
       path: "./music/Ngại Nói  Tú Đào ft EZFluvCukak Remix Audio Lyrics.mp3",
       image: "./assets/img/Ngại nói.png"
     },
@@ -86,37 +86,37 @@ const app = {
     },
     {
       name: "Tàn Nhẫn (Cukak Remix)",
-      singer: "Thanh Hưng",
+      singer: "Lương Minh Trang",
       path: "./music/Tàn Nhẫn  Lương Minh TrangCukak Remix Audio Lyrics Video.mp3",
       image: "./assets/img/Tàn nhẫn.png"
     },
     {
       name: "Thích Em Hơi Nhiều (Cukak Remix)",
-      singer: "Thanh Hưng",
+      singer: "Wren Evans",
       path: "./music/Thích Em Hơi Nhiều  Wren EvansCukak Remix Audio Lyrics Video.mp3",
       image: "./assets/img/Thích em hơi nhiều.png"
     },
     {
       name: "Tình Yêu Của Anh (Cukak Remix)",
-      singer: "HuyR",
+      singer: "Phú Quí",
       path: "./music/Tình Yêu Của Anh  Phú QuíCukak Remix Audio Lyrics.mp3",
       image: "./assets/img/Tình yêu của anh.png"
     },
     {
       name: "U Are So Sweet (Cukak Remix)",
-      singer: "HuyR",
+      singer: "D Empty ft. TDY",
       path: "./music/U Are So Sweet  D Empty ft TDYCukak Remix Audio Lyrics Video.mp3",
       image: "./assets/img/U are so sweet.png"
     },
     {
       name: "Yêu Đừng Sợ Đau (Cukak Remix)",
-      singer: "HuyR",
+      singer: "Ngô Lan Hương",
       path: "./music/Yêu Đừng Sợ Đau  Ngô Lan HươngCukak Remix Audio Lyrics Video.mp3",
       image: "./assets/img/Yêu đừng sợ đau.png"
     },
     {
       name: "Yêu Thương Quay Về (Cukak Remix)",
-      singer: "HuyR",
+      singer: "Young D ft. BOT",
       path: "./music/Yêu Thương Quay Về  Young D ft BOTCukak Remix  Audio Lyrics.mp3",
       image: "./assets/img/Yêu thương quay về.png"
     }
