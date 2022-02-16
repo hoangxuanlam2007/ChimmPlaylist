@@ -69,6 +69,7 @@ body{
   cursor: pointer;
 }
 .top-bar {
+  z-index: 1;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
    -khtml-user-select: none; /* Konqueror HTML */
@@ -113,6 +114,7 @@ body{
   font-family: 'Inter', sans-serif;
 }
 .img-area{
+  z-index: 1;
   width: 100%;
   height: 256px;
   overflow: hidden;
@@ -212,7 +214,7 @@ body{
 	background: -webkit-gradient(linear, left top, left bottom, from(var(--aqua)), to(var(--darkblue)));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-  font-size: 24px;
+  font-size: 28px;
   cursor: pointer;
 }
 .fa-solid.fa-circle-info {
@@ -220,15 +222,8 @@ body{
 	background: -webkit-gradient(linear, left top, left bottom, from(var(--aqua)), to(var(--darkblue)));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-  font-size: 25px;
+  font-size: 30px;
   cursor: pointer;
-  margin-top: -3px;
-}
-.fa-solid.fa-circle-info::before {
-  margin-right: 3px;
-}
-.fas.fa-volume-up::before {
-  margin-left: 10px;
 }
 .fa-solid.fa-circle-check {
   color: rgb(40, 200, 255);
@@ -282,41 +277,55 @@ body{
   color: #86bbff;
 }
 #volumeBtn {
+  position: absolute;
   outline: 0;
   background-color: transparent;
   border: none;
   z-index: 9999;
+  width: 48px;
+  height: 48px;
+  margin-bottom: -3px;
 }
 #volumeBtn:focus {
   outline: 0;
 }
 #closeVolumeBtn {
   position: relative;
-  margin-left: 12px;
+  margin-left: 5px;
   outline: 0;
   background-color: transparent;
   border: none;
   z-index: 9999;
+  width: 32px;
+  height: 32px;
 }
 #closeVolumeBtn:focus {
   outline: 0;
 }
 #infoBtn {
+  position: absolute;
+  width: 48px;
+  height: 48px;
   outline: 0;
   background-color: transparent;
   border: none;
   z-index: 9999;
+  right: 0;
+  top: 40;
+  margin-right: 17px;
 }
 #infoBtn:focus {
   outline: 0;
 }
 #closeInfoBtn {
   position: relative;
-  margin-right: 5px;
+  margin-right: -3px;
   outline: 0;
   background-color: transparent;
   border: none;
   z-index: 9999;
+  width: 32px;
+  height: 32px;
 }
 #closeInfoBtn:focus {
   outline: 0;
