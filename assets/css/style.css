@@ -233,11 +233,17 @@ body{
   color: #23cf9b;
 }
 .info-box {
+  margin: auto;
   display: none;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
   margin-left: 20px;
-  position: absolute;
+  position: relative;
   background-color: #fdfdfd;
   padding: 15px;
+  width: 380px;
+  margin-top: 50px;
   border-radius: 20px;
   box-shadow: 0px 6px 12px var(--lightbshadow);
   z-index: 9999;
@@ -473,6 +479,7 @@ body{
   border-radius: 15px;
   box-shadow: 0px -5px 10px rgba(0,0,0,0.1);
   transition: all 0.15s ease-out;
+  overflow-y: hidden;
 }
 .music-list.show{
   bottom: 0;
@@ -851,6 +858,12 @@ ul li.playing{
     margin-top: 5px;
   }
   .fas.fa-volume-up {
+    display: none;
+  }
+  .info-box {
+    display: block;
+  }
+  #infoBtn {
     display: none;
   }
   .top-bar span {
