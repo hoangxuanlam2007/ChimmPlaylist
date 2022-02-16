@@ -43,7 +43,7 @@
   <link rel="stylesheet" href="./assets/css/style.css">
 
   <!-- Links -->
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="./favicon.ico">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.css" />
 </head>
@@ -54,9 +54,8 @@
     <div class="top-bar">
       <button id="volumeBtn" onclick="showVolume(); closeVolumeBtn();" title="Âm lượng"><i class="fas fa-volume-up"></i></button>
       <button id="closeVolumeBtn" style="display: none;" onclick="closeVolume();" title="Đóng"><i id="x-mark-volume" class="fa-solid fa-xmark" style="color: #515C6F; display: inline-block; font-size: 28px;"></i></button>
-      <button id="mobileBtn"><i class="fa-solid fa-angles-right"></i></button>
       <span>Đang phát</span>
-      <button id="infoBtn" onclick="showInfo(); closeInfoBtn();" title="Thông tin"><i class="fa-solid fa-circle-info"></i></button>
+      <button style="z-index: 9999; overflow: visible;" id="infoBtn" onclick="showInfo(); closeInfoBtn();" title="Thông tin"><i class="fa-solid fa-circle-info"></i></button>
       <button id="closeInfoBtn" style="display: none;" onclick="closeInfo();" title="Đóng"><i id="x-mark-volume" class="fa-solid fa-xmark" style="color: #515C6F; display: inline-block; font-size: 28px;"></i></button>
     </div>
     
