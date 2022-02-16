@@ -143,7 +143,7 @@ let allMusic = [
   },
   {
     name: "Siren",
-    artist: "TGSN ft. Flinh & RZ Mas - Chimmyw Mix",
+    artist: "TGSN ft. Tlinh & RZ Mas - Chimmyw Mix",
     img: "music-23",
     src: "music-23"
   },
