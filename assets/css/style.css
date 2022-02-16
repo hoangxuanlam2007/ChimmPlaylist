@@ -230,21 +230,6 @@ body{
 .fas.fa-volume-up::before {
   margin-left: 10px;
 }
-.fa-solid.fa-angles-right {
-  font-size: 28px;
-  user-select: none;
-  background: linear-gradient(var(--aqua) 0%, var(--darkblue) 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-#mobileBtn {
-  visibility: hidden;
-  outline: 0;
-  background-color: transparent;
-  border: none;
-  margin: auto;
-}
 .fa-solid.fa-circle-check {
   color: rgb(40, 200, 255);
   cursor: pointer;
@@ -858,11 +843,6 @@ ul li.playing{
   }
   .fas.fa-volume-up {
     display: none;
-  }
-  #mobileBtn {
-    visibility: visible;
-    display: inline;
-    margin-left: 10px;
   }
   .top-bar span {
     position: absolute;
