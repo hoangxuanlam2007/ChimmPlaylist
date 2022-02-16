@@ -242,7 +242,6 @@ body{
   position: relative;
   background-color: #fdfdfd;
   padding: 15px;
-  width: 380px;
   margin-top: 50px;
   border-radius: 20px;
   box-shadow: 0px 6px 12px var(--lightbshadow);
