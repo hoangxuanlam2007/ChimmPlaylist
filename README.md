@@ -1,6 +1,15 @@
 # ChimmywPlaylist
 Iu Quyên lắm lunn ó :3
 
+# Latest Updates
+- Added **Responsive Navigation Bar** at `./index.html`.
+- Modified `./assets/css/style.css` for better _**Responsive website experience**_.
+- Modified `Volume Slider Bar`, makes its **width** changes according to the `audio.volume`
+- Hover `::-webkit-slider-thumb` of both **Volume Slider** & **Progress Bar** to show the `box-shadow` with `ease-in-out` transitions.
+- Added **Contact Form** at `./Contact/index.html`
+> Fixed some Bugs.
+> Improve **UI Quality Design and Environment**.
+
 
 ## Code Examples for you guys
 1. Make sure to *declare* your *variables* with `const`:
