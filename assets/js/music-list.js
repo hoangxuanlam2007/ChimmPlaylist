@@ -189,4 +189,22 @@ let allMusic = [
     img: "music-30",
     src: "music-30"
   },
+  {
+    name: "UNFOLLOW",
+    artist: "Daeron x CM1X x Freaky & Tùa",
+    img: "music-31",
+    src: "music-31"
+  },
+  {
+    name: "Dù Cho Mai Về Sau",
+    artist: "Buitruonglinh - Chimmyw x Orinn Collab",
+    img: "music-32",
+    src: "music-32"
+  },
+  {
+    name: "Năm Ấy",
+    artist: "Đức Phúc",
+    img: "music-33",
+    src: "music-33"
+  },
 ];
