@@ -260,10 +260,33 @@ progressArea.addEventListener("click", (e)=>{
 
 // Change loop, shuffle, repeat icon onclick
 // Đổi nút Ngẫu nhiên, Lặp lại danh sách, Lặp lại 1 bài hát
+// const repeatBtn = wrapper.querySelector("#repeat-plist");
+// repeatBtn.addEventListener("click", ()=>{
+//   let getText = repeatBtn.innerText; // Getting this tag innerText - Lấy chữ Attribute bên trong thẻ
+//   switch(getText){
+//     case "repeat":
+//       repeatBtn.innerText = "repeat_one";
+//       repeatBtn.setAttribute("title", "Lặp lại 1 bài");
+//       break;
+//     case "repeat_one":
+//       repeatBtn.innerText = "shuffle";
+//       repeatBtn.setAttribute("title", "Phát ngẫu nhiên");
+//       break;
+//     case "shuffle":
+//       repeatBtn.innerText = "repeat";
+//       repeatBtn.setAttribute("title", "Lặp lại danh sách");
+//       break;
+//   }
+// });
+
 const repeatBtn = wrapper.querySelector("#repeat-plist");
 repeatBtn.addEventListener("click", ()=>{
   let getText = repeatBtn.innerText; // Getting this tag innerText - Lấy chữ Attribute bên trong thẻ
   switch(getText){
+    case "shuffle":
+      repeatBtn.innerText = "repeat";
+      repeatBtn.setAttribute("title", "Lặp lại danh sách");
+      break;
     case "repeat":
       repeatBtn.innerText = "repeat_one";
       repeatBtn.setAttribute("title", "Lặp lại 1 bài");
@@ -271,10 +294,6 @@ repeatBtn.addEventListener("click", ()=>{
     case "repeat_one":
       repeatBtn.innerText = "shuffle";
       repeatBtn.setAttribute("title", "Phát ngẫu nhiên");
-      break;
-    case "shuffle":
-      repeatBtn.innerText = "repeat";
-      repeatBtn.setAttribute("title", "Lặp lại danh sách");
       break;
   }
 });
