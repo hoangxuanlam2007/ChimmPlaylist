@@ -41,7 +41,7 @@ let allMusic = [
   },
   {
     name: "Đau Nhất Là Lặng Im",
-    artist: "Erik x Chimmyw Mix",
+    artist: "Erik x Cukak Remix",
     img: "music-6",
     src: "music-6"
   },
