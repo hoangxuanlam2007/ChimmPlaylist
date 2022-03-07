@@ -40,8 +40,8 @@ let allMusic = [
     src: "music-5"
   },
   {
-    name: "Bước Qua Nhau",
-    artist: "Vũ - Chimmyw Remix",
+    name: "Đau Nhất Là Lặng Im",
+    artist: "Erik x Chimmyw Mix",
     img: "music-6",
     src: "music-6"
   },
@@ -70,8 +70,8 @@ let allMusic = [
     src: "music-10"
   },
   {
-    name: "Em Đây Chẳng Phải Thúy Kiều",
-    artist: "Hoàng Thùy Linh",
+    name: "Mây Đêm Chờ Mấy Đêm",
+    artist: "Nguyễn Hữu Kha - Chimmyw Remix",
     img: "music-11",
     src: "music-11"
   },
@@ -184,8 +184,8 @@ let allMusic = [
     src: "music-29"
   },
   {
-    name: "U Are So Sweet",
-    artist: "D Empty ft. TDY - Cukak Remix",
+    name: "SUNDAY HIPHOP CYPHER",
+    artist: "16 Typh, 16 BrT, Lil Wuyn, RIC - Cukak x Chimmyw Collab",
     img: "music-30",
     src: "music-30"
   },
@@ -206,5 +206,35 @@ let allMusic = [
     artist: "Đức Phúc",
     img: "music-33",
     src: "music-33"
+  },
+  {
+    name: "Yêu Yếu Lòng",
+    artist: "Lil Zpoet - Cukak Remix",
+    img: "music-34",
+    src: "music-34"
+  },
+  {
+    name: "Ngày Đầu Tiên",
+    artist: "Đức Phúc x Chimmyw x Cukak",
+    img: "music-35",
+    src: "music-35"
+  },
+  {
+    name: "Em iu",
+    artist: "Andree Right Hand ft. Wxrdie x Bình Gold x 2pillz x Cukak",
+    img: "music-36",
+    src: "music-36"
+  },
+  {
+    name: "Đôi Mắt Kẻ Si Tình",
+    artist: "Young Noi$y - Cukak Remix",
+    img: "music-37",
+    src: "music-37"
+  },
+  {
+    name: "Đi Một Tí Thôi",
+    artist: "Deus Tiến Đạt x Chimmyw x Cukak Mix",
+    img: "music-38",
+    src: "music-38"
   },
 ];
