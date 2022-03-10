@@ -1,6 +1,5 @@
 ![Github author](https://img.shields.io/static/v1?label=AUTHOR&message=Chimmyw&color=blueviolet&style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors/hoangxuanlam2007/ChimmywPlaylist?color=%2300a3ff&logo=github&style=for-the-badge)
-![GitHub all releases](https://img.shields.io/static/v1?label=DOWNLOADS&message=2.6k&color=blue&style=for-the-badge)
 ![Github stars](https://img.shields.io/static/v1?label=STARS&message=1.4k&color=fff000&style=for-the-badge)
 ![Github liscene](https://img.shields.io/static/v1?label=LISCENCE&message=FREE&color=green&style=for-the-badge)
-![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCVzxZyNZfd_O23kRpb1cT8Q?color=red&logo=youtube&style=for-the-badge)
+[![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCVzxZyNZfd_O23kRpb1cT8Q?color=red&logo=youtube&style=for-the-badge)](https://www.youtube.com/channel/UCVzxZyNZfd_O23kRpb1cT8Q)
