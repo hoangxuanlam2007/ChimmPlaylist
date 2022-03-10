@@ -3,7 +3,7 @@
 [![Github author](https://img.shields.io/static/v1?label=AUTHOR&message=Chimmyw&color=blueviolet&style=for-the-badge)](https://facebook.com/chimmywnhatt)
 [![GitHub contributors](https://img.shields.io/github/contributors/hoangxuanlam2007/ChimmywPlaylist?color=%2300a3ff&logo=github&style=for-the-badge)](https://github.com/hoangxuanlam2007)
 [![Github stars](https://img.shields.io/static/v1?label=STARS&message=1.4k&color=fff000&style=for-the-badge)](https://github.com/hoangxuanlam2007/ChimmywPlaylist)
-[![Github liscene](https://img.shields.io/static/v1?label=LISCENCE&message=FREE&color=green&style=for-the-badge)](https://github.com/hoangxuanlam2007/ChimmywPlaylist)
+[![Github liscene](https://img.shields.io/static/v1?label=LISCENCE&message=AGPL-3.0&color=green&style=for-the-badge)](https://github.com/hoangxuanlam2007/ChimmywPlaylist)
 [![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCVzxZyNZfd_O23kRpb1cT8Q?color=red&logo=youtube&style=for-the-badge)](https://www.youtube.com/channel/UCVzxZyNZfd_O23kRpb1cT8Q)
 [![HackerNews User Karma](https://img.shields.io/hackernews/user-karma/chimmyw2007?label=HACKERNEWS%20U%2FCHIMMYW2007&style=for-the-badge)](https://news.ycombinator.com/user?id=chimmyw2007)
 [![karma](https://img.shields.io/static/v1?label=Karma&message=27&color=orange&style=for-the-badge)](https://www.facebook.com/chimmywnhatt)
