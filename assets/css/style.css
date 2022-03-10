@@ -1199,11 +1199,6 @@ ul li.playing{
   font-weight: 500;
   margin-top: 5px;
 }
-#loading-img-bg {
-  display: block;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
+#imgMusic {
   background: #1b2937 url('../loading/img-loading.svg') no-repeat center center;
-  transition: all .3s ease-in-out;
 }
