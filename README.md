@@ -1,16 +1,18 @@
 # ChimmywPlaylist
 Iu Quyên lắm lunn ó :3
 
-# Latest Updates
-- Added **Responsive Navigation Bar** at `./index.html`.
-- Modified `./assets/css/style.css` for better _**Responsive website experience**_.
-- Modified `Volume Slider Bar`, makes its **width** changes according to the `audio.volume`
-- Hover `::-webkit-slider-thumb` of both **Volume Slider** & **Progress Bar** to show the `box-shadow` with `ease-in-out` transitions.
-- Added **Contact Form** at `./Contact/index.html`
-- Updated `Readme.md`
-> Fixed some Bugs.
-> Improve **UI Quality Design and Environment**.
-
+# Latest Updates `v1.1.0`.
+- Added  **Website Loader** (There'll be a loading gif exist until the body fully loaded).
+- Added **Shortcut Keys**:
+   Arrow right: Next song
+   Arrow left: Previous song
+   Spacecar: Play/Pause song
+   TAB: Toggle show/hide Music List
+- Adjust all transition for better **visual** and **performance**.
+- Use `cubic bezier` instead of `ease-in-out` transition for **smoother experience**.
+- Added **Scroll to top** for the music list.
+- Added `endList` at the bottom of the music list.
+- Fixed some **Bugs**.
 
 ## Code Examples for you guys
 1. Make sure to *declare* your *variables* with `const`:
