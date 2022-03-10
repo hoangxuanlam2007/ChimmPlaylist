@@ -482,3 +482,10 @@ function endList() {
 $('#toTopList').on("click",function(){
   $('#list').scrollTop(0);
 });
+
+var imgs = [];
+var imgUrls = ["a.png","b.jpg","c.gif"];
+for (i=0;i<imgUrls.length;i++) {
+    imgs.push(new Image());
+    imgs[i].src = imgUrls[i]
+}
