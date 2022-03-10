@@ -431,11 +431,11 @@ function clicked(element){
 }
 
 // Loading Function
-function loadingFunction() {
-  document.getElementsByTagName("BODY")[0].style.overflowY = "scroll";
-  document.getElementById("loading-bg").style.opacity = "0";
-  document.getElementById("loading-bg").style.zIndex = "-1";
-}
+// function loadingFunction() {
+//   document.getElementsByTagName("BODY")[0].style.overflowY = "scroll";
+//   document.getElementById("loading-bg").style.opacity = "0";
+//   document.getElementById("loading-bg").style.zIndex = "-1";
+// }
 
 // Scroll to top after a refresh
 if (history.scrollRestoration) {
@@ -483,7 +483,23 @@ $('#toTopList').on("click",function(){
   $('#list').scrollTop(0);
 });
 
-// Test
-$('#imgMusic').load(function(){
-  $(this).css('background','none');
+// Tell Website to wait until all images are fully loaded
+$(document).ready(function () {
+  // When we begin, assume no images are loaded.
+  var imagesLoaded = 0;
+  // Count the total number of images on the page when the page has loaded.
+  var totalImages = $("img").length;
+  // After an image is loaded, add to the count, and if that count equals the
+  // total number of images, fire the allImagesLoaded() function.
+  $("img").on("load", function (event) {
+    imagesLoaded++;
+    if (imagesLoaded == totalImages) {
+      allImagesLoaded();
+    }
+  });
+  function allImagesLoaded() {
+    document.getElementsByTagName("BODY")[0].style.overflowY = "scroll";
+    document.getElementById("loading-bg").style.opacity = "0";
+    document.getElementById("loading-bg").style.zIndex = "-1";
+  }
 });
