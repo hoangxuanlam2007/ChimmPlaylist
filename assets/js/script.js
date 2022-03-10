@@ -484,6 +484,6 @@ $('#toTopList').on("click",function(){
 });
 
 // Show loading-img-bg until the image load
-$("#imgMusic").on('load', function() {
-  $("#loading-img-bg").css("display", "none");
-})
+function imgLoad() {
+  document.getElementById("loading-img-bg").style.display = "none";
+}
