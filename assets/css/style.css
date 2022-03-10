@@ -742,12 +742,13 @@ body header {
   margin-left: 5px;
 }
 .header #close{
+  right: 0;
   font-size: 22px;
   color: var(--lightblack);
   transition: all .2s ease-out;
 }
 .header #close:hover{
-  color: #ff1c1c;
+  color: #ff1010;
 }
 .header #toTopList{
   font-size: 22px;
@@ -1197,4 +1198,12 @@ ul li.playing{
   opacity: 0.75;
   font-weight: 500;
   margin-top: 5px;
+}
+#loading-img-bg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #1b2937 url('../loading/img-loading.svg') no-repeat center center;
+  transition: all .3s ease-in-out;
 }
