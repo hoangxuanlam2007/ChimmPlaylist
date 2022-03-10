@@ -5,25 +5,27 @@
 [![Github stars](https://img.shields.io/static/v1?label=STARS&message=1.4k&color=fff000&style=for-the-badge)](https://github.com/hoangxuanlam2007/ChimmywPlaylist)
 [![Github liscene](https://img.shields.io/static/v1?label=LISCENCE&message=FREE&color=green&style=for-the-badge)](https://github.com/hoangxuanlam2007/ChimmywPlaylist)
 [![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCVzxZyNZfd_O23kRpb1cT8Q?color=red&logo=youtube&style=for-the-badge)](https://www.youtube.com/channel/UCVzxZyNZfd_O23kRpb1cT8Q)
+[![iuwuynn](https://img.shields.io/static/v1?label=iu&message=wuynn&color=ff69b4&style=for-the-badge)](https://www.facebook.com/wuynnycnhatt)
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://hoangxuanlam2007.github.io/ChimmywPlaylist/">
+    <img src="favicon.ico" alt="Logo" width="100" height="100">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Chimmyw's Playlist</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    An awesome Music Player Website, inspired by me!<br/>
+    I made this website as a gift for my girlfriend and I just want to say that I love you sm!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://hoangxuanlam2007.github.io/ChimmywPlaylist/"><strong>Explore the website »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/hoangxuanlam2007/ChimmywPlaylist/">View Source Code</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/hoangxuanlam2007/ChimmywPlaylist/issues">Report Bug</a>
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
@@ -44,13 +46,12 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#shortcut-keys">Shortcut Keys</a></li>
+        <li><a href="#code-instruction">Code Instruction</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#contributor">Contributor</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -62,117 +63,349 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Banner][banner]](https://hoangxuanlam2007.github.io/ChimmywPlaylist)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+I made this website just to say that I love Quyen so much! <br/>
+I first started this website a couple of months ago.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Built-in Website:
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
+* [HTML](https://html.com/)
+* [CSS](https://html.com/css/)
+* [JavaScript](https://javascript.com/)
 * [JQuery](https://jquery.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This is a **Website User Manual**.
 
-### Prerequisites
+### Shortcut Keys
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
+These are some shortcut keys for you to control the Music Player.
+* Play/Pause ***audio***: `Spacebar`
+* Toggle *Show/Hide* Music List: `TAB`
+* Play Previous Music: `Left_Arrow`
+* Play Next Music: `Right_Arrow`
+
+### Code Instruction
+
+_Below is an example of how you can write these code by yourself._
+
+1. Make sure to *declare* your *variables* with `const`:
+```
+const your_variables_name = $("your_element_id_or_class");    //Your element can be given by id or class
+```
+  >All of mine
   ```
+  const $ = document.querySelector.bind(document);
+  const $$ = document.querySelectorAll.bind(document);
 
-### Installation
+  const PlAYER_STORAGE_KEY = "MUSIC_PLAYER";
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+  const player = $(".player");
+  const cd = $(".cd");
+  const heading = $("header h2");
+  const cdThumb = $(".cd-thumb");
+  const audio = $("#audio");
+  const playBtn = $(".btn-toggle-play");
+  const progress = $("#progress");
+  const prevBtn = $(".btn-prev");
+  const nextBtn = $(".btn-next");
+  const randomBtn = $(".btn-random");
+  const repeatBtn = $(".btn-repeat");
+  const playlist = $(".playlist");
+  ```
+2. *Declare* all of your songs:
+```
+const app = {
+  currentIndex: 0,
+  isPlaying: false,
+  isRandom: false,
+  isRepeat: false,
+  config: {},
+  songs: [
+    {
+      name: "Song name",
+      singer: "Author/Singer",
+      path: "path to your music",
+      image: "path to your music image"
+    },
+ ],
+```
+   //Some Extras
+ ```
+   defineProperties: function () {
+    Object.defineProperty(this, "currentSong", {
+      get: function () {
+        return this.songs[this.currentIndex];
+      }
+    });
+  },
+  handleEvents: function () {
+    const _this = this;
+    const cdWidth = cd.offsetWidth;
+```
+3. Play/Pause Funtions _(add your own button)_:
+```
+    // Xử lý khi click play
+    // Handle when click play
+    playBtn.onclick = function () {
+      if (_this.isPlaying) {
+        audio.pause();
+      } else {
+        audio.play();
+      }
+    };
+ ```
+ ```
+    // Khi song được play
+    // When the song is played
+    audio.onplay = function () {
+      _this.isPlaying = true;
+      player.classList.add("playing");
+      cdThumbAnimate.play();
+    };
+ ```
+ ```
+    // Khi song bị pause
+    // When the song is pause
+    audio.onpause = function () {
+      _this.isPlaying = false;
+      player.classList.remove("playing");
+      cdThumbAnimate.pause();
+    };
+```
+ >Use spacebar `(e.keyCode == 32)` to *Play/Pause* the `audio`
+```
+    // Ấn phím Cách để Play/Pause
+    // Using Spacebar to Play/Pause
+    if (audio) {
+      window.addEventListener('keydown', function (event) {
+        var key = event.which || event.keyCode;
+        if (key === 32) { // spacebar
+          // disable scroll page : Spacebar
+          event.preventDefault();
+          audio.paused ? audio.play() : audio.pause();
+        }
+      });
+    }
+```
+4. Function when the song progress *changes*
+```
+    // Khi tiến độ bài hát thay đổi
+    // When the song progress changes
+    audio.ontimeupdate = function () {
+      if (audio.duration) {
+        const progressPercent = Math.floor(
+          (audio.currentTime / audio.duration) * 100
+        );
+        progress.value = progressPercent;
+      }
+    };
+```
+5. Make sure to add some buttons to control the audio likes: _Forward, Backward, Play, Pause, Loop, Shuffle_
+```
+    // Xử lý khi tua song
+    // Handling when seek
+    progress.onchange = function (e) {
+      const seekTime = (audio.duration / 100) * e.target.value;
+      audio.currentTime = seekTime;
+    };
+```
+```
+    // Khi next song
+    // When next song
+    nextBtn.onclick = function () {
+      if (_this.isRandom) {
+        _this.playRandomSong();
+      } else {
+        _this.nextSong();
+      }
+      audio.play();
+      _this.render();
+      _this.scrollToActiveSong();
+    };
+```
+```
+    // Khi prev song
+    // When prev song
+    prevBtn.onclick = function () {
+      if (_this.isRandom) {
+        _this.playRandomSong();
+      } else {
+        _this.prevSong();
+      }
+      audio.play();
+      _this.render();
+      _this.scrollToActiveSong();
+    };
+```
+```
+    // Xử lý bật / tắt random song
+    // Handling on / off random song
+    randomBtn.onclick = function (e) {
+      _this.isRandom = !_this.isRandom;
+      _this.setConfig("isRandom", _this.isRandom);
+      randomBtn.classList.toggle("active", _this.isRandom);
+    };
+``` 
+```
+    // Xử lý lặp lại một song
+    // Single-parallel repeat processing
+    repeatBtn.onclick = function (e) {
+      _this.isRepeat = !_this.isRepeat;
+      _this.setConfig("isRepeat", _this.isRepeat);
+      repeatBtn.classList.toggle("active", _this.isRepeat);
+    };
+```
+```
+    // Xử lý next song khi audio ended
+    // Handle next song when audio ended
+    audio.onended = function () {
+      if (_this.isRepeat) {
+        audio.play();
+      } else {
+        nextBtn.click();
+      }
+    };
+```
+```
+    // Lắng nghe hành vi click vào playlist
+    // Listen to playlist clicks
+    playlist.onclick = function (e) {
+      const songNode = e.target.closest(".song:not(.active)");
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+      if (songNode || e.target.closest(".option")) {
+        // Xử lý khi click vào song
+        // Handle when clicking on the song
+        if (songNode) {
+          _this.currentIndex = Number(songNode.dataset.index);
+          _this.loadCurrentSong();
+          _this.render();
+          audio.play();
+        }
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+        // Xử lý khi click vào song option
+        // Handle when clicking on the song option
+        if (e.target.closest(".option")) {
+        }
+      }
+    };
+  },
+  scrollToActiveSong: function () {
+    setTimeout(() => {
+      $(".song.active").scrollIntoView({
+        behavior: "smooth",
+        block: "nearest"
+      });
+    }, 300);
+  },
+  loadCurrentSong: function () {
+    heading.textContent = this.currentSong.name;
+    cdThumb.style.backgroundImage = `url('${this.currentSong.image}')`;
+    audio.src = this.currentSong.path;
+  },
+  loadConfig: function () {
+    this.isRandom = this.config.isRandom;
+    this.isRepeat = this.config.isRepeat;
+  },
+  nextSong: function () {
+    this.currentIndex++;
+    if (this.currentIndex >= this.songs.length) {
+      this.currentIndex = 0;
+    }
+    this.loadCurrentSong();
+  },
+  prevSong: function () {
+    this.currentIndex--;
+    if (this.currentIndex < 0) {
+      this.currentIndex = this.songs.length - 1;
+    }
+    this.loadCurrentSong();
+  },
+  playRandomSong: function () {
+    let newIndex;
+    do {
+      newIndex = Math.floor(Math.random() * this.songs.length);
+    } while (newIndex === this.currentIndex);
 
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
+    this.currentIndex = newIndex;
+    this.loadCurrentSong();
+  },
+  start: function () {
+```
+```
+    // Gán cấu hình từ config vào ứng dụng
+    // Assign configuration from config to application
+    this.loadConfig();
+```
+```
+    // Định nghĩa các thuộc tính cho object
+    // Defines properties for the object
+    this.defineProperties();
+```
+```
+    // Lắng nghe / xử lý các sự kiện (DOM events)
+    // Listening / handling events (DOM events)
+    this.handleEvents();
+```
+```
+    // Tải thông tin bài hát đầu tiên vào UI khi chạy ứng dụng
+    // Load the first song information into the UI when running the app
+    this.loadCurrentSong();
+```
+```
+    // Render playlist
+    this.render();
+```
+```
+    // Hiển thị trạng thái ban đầu của button repeat & random
+    // Display the initial state of the repeat & random button
+    randomBtn.classList.toggle("active", this.isRandom);
+    repeatBtn.classList.toggle("active", this.isRepeat);
+  }
+};
+```
+> `app.start` Function
+```
+app.start();
+```
+_These are just a few examples for you. Make sure to let your imagination run free by using code to create mesmerising visual displays._
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [x] Add Readme.md.
+- [x] Fix some bugs.
+- [x] Improve Website User Interface.
+- [x] Use `Cubic Bezier`
+- [ ] Have 50 songs in the list
+    - [x] 20 songs
+    - [x] 30 songs
+    - [x] 40 songs
+    - [ ] 50 songs
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/hoangxuanlam2007/ChimmywPlaylist/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- CONTRIBUTING -->
-## Contributing
+## Contributor
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+There is only 1 *contributor* to this project:
+ 1. Chimmyw (Author)
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+***If you have a suggestion that would make this better, please let me know [here](https://github.com/hoangxuanlam2007/ChimmywPlaylist/issues).***
+***Don't forget to give the project a star! Thanks again!***
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -181,7 +414,8 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the *Free License*. <br/>
+See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -190,9 +424,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+**Chimmyw - [Xuân Lâm](https://facebook.com/chimmywnhatt) - chim31102007@gmail.com**
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+**Project Link: [Chimmyw's Playlist (Click Here)](https://github.com/hoangxuanlam2007/ChimmywPlaylist)**
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -203,31 +437,12 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+[banner]: site_lib/og_img.png
