@@ -483,7 +483,7 @@ $('#toTopList').on("click",function(){
   $('#list').scrollTop(0);
 });
 
-// Show loading-img-bg until the image load
-function imgLoad() {
-  document.getElementById("loading-img-bg").style.display = "none";
-}
+// Test
+$('#imgMusic').load(function(){
+  $(this).css('background','none');
+});
