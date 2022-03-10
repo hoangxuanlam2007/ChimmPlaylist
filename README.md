@@ -5,6 +5,7 @@
 [![Github stars](https://img.shields.io/static/v1?label=STARS&message=1.4k&color=fff000&style=for-the-badge)](https://github.com/hoangxuanlam2007/ChimmywPlaylist)
 [![Github liscene](https://img.shields.io/static/v1?label=LISCENCE&message=FREE&color=green&style=for-the-badge)](https://github.com/hoangxuanlam2007/ChimmywPlaylist)
 [![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCVzxZyNZfd_O23kRpb1cT8Q?color=red&logo=youtube&style=for-the-badge)](https://www.youtube.com/channel/UCVzxZyNZfd_O23kRpb1cT8Q)
+![HackerNews User Karma](https://img.shields.io/hackernews/user-karma/chimmyw2007?label=HACKERNEWS%20U%2FCHIMMYW2007&style=for-the-badge)
 [![iuwuynn](https://img.shields.io/static/v1?label=iu&message=wuynn&color=ff69b4&style=for-the-badge)](https://www.facebook.com/wuynnycnhatt)
 
 <!-- PROJECT LOGO -->
