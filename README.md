@@ -52,6 +52,7 @@
         <li><a href="#code-instruction">Code Instruction</a></li>
       </ul>
     </li>
+    <li><a href="#changelog">Changelog</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributor">Contributor</a></li>
     <li><a href="#license">License</a></li>
@@ -381,6 +382,43 @@ app.start();
 ```
 _These are just a few examples for you. Make sure to let your imagination run free by using code to create mesmerising visual displays._
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- CHANGELOG -->
+## Changelog
+
+## v1.1.1 - Latest
+
+### Added or Changed
+- Added `README.md` (**[Click here](https://github.com/hoangxuanlam2007/ChimmywPlaylist/blob/main/README.md)**).
+- Added `CHANGELOG.md` (**[Click here](https://github.com/hoangxuanlam2007/ChimmywPlaylist/blob/main/CHANGELOG.md)**).
+- Added `LICENSE.txt` (**[Click here](https://github.com/hoangxuanlam2007/ChimmywPlaylist/blob/main/LICENSE.txt)**).
+- Added `Shortcut Keys` for better *user experience*. Click **[here](https://github.com/hoangxuanlam2007/ChimmywPlaylist#getting-started)** for more **Information**!
+- Reset the scroll `x-axis` and `y-axis` to `0`  when the page is **Refreshed**.
+- Added an `endListText` element at bottom of **Music List** to end the Music List.
+- Colors Changed.
+- Added **Website Loader**.
+- Make **Website Loader** appear until the `img` loaded.
+- Added and Replaced some songs.
+- Added and Replaced some song images.
+- Added `Back To Top` for the Music List.
+- Use `cubic bezier transition` instead of `default ease-inout transition` for the most **elements**.
+- Added `.3s ease-in-out` transition for 3 social button links at the **footer**.
+
+### Removed
+- Removed some songs.
+- Removed some song images.
+
+For more `Changelogs` click **[here](https://github.com/hoangxuanlam2007/ChimmywPlaylist/blob/main/CHANGELOG.md)**
+
+Report issue or bug **[here](https://github.com/hoangxuanlam2007/ChimmywPlaylist/issues)** to get it fixes **as soon as possible**.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
 <!-- ROADMAP -->
 ## Roadmap
 
@@ -416,8 +454,8 @@ There is only 1 *contributor* to this project:
 <!-- LICENSE -->
 ## License
 
-Distributed under the *Free License*. <br/>
-See `LICENSE.txt` for more information.
+Distributed under the *AGPL-3.0 License*. <br/>
+See `LICENSE.txt` for more information or click **[here](https://github.com/hoangxuanlam2007/ChimmywPlaylist/blob/main/LICENSE.txt)**.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
