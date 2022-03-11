@@ -1,5 +1,6 @@
-<!-- Examples -->
+<!-- CHANGELOG.md Example -->
 <!-- 
+
 ## v1.1.1 - Latest
 
 ### Added or Changed
@@ -17,7 +18,33 @@
 ### Removed
 -
 
-___
+ -->
+
+
+
+<!-- Release Example -->
+<!-- 
+
+ # Added or Changed
+- Added `README.md` (**[Click here](https://github.com/hoangxuanlam2007/ChimmywPlaylist/blob/main/README.md)**).
+- Added `CHANGELOG.md` (**[Click here](https://github.com/hoangxuanlam2007/ChimmywPlaylist/blob/main/CHANGELOG.md)**).
+- Added `LICENSE.txt` (**[Click here](https://github.com/hoangxuanlam2007/ChimmywPlaylist/blob/main/LICENSE.txt)**).
+- Added `Shortcut Keys` for better *user experience*. Click **[here](https://github.com/hoangxuanlam2007/ChimmywPlaylist#getting-started)** for more **Information**!
+- Reset the scroll `x-axis` and `y-axis` to `0`  when the page is **Refreshed**.
+- Added an `endListText` element at bottom of **Music List** to end the Music List.
+- Colors Changed.
+- Added **Website Loader**.
+- Make **Website Loader** appear until the `img` loaded.
+- Added and Replaced some songs.
+- Added and Replaced some song images.
+- Added `Back To Top` for the Music List.
+- Use `cubic bezier transition` instead of `default ease-inout transition` for the most **elements**.
+- Added `.3s ease-in-out` transition for 3 social button links at the **footer**.
+
+# Removed
+- Removed some songs.
+- Removed some song images.
+
  -->
 
 
