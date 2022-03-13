@@ -308,6 +308,9 @@ let volume = document.querySelector("#slider");
   audio.volume = e.currentTarget.value / 100;
 })
 
+var audio = document.querySelector('audio');
+audio.volume = 0.5;
+
 var $slider = $("#slider");
 var $fill = $(".bar .fill");
 function setBar() {
