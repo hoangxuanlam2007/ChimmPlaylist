@@ -49,7 +49,7 @@ let allMusic = [
     name: "Chạy Về Khóc Với Anh",
     artist: "Erik - Cukak Remix",
     img: "music-7-min",
-    src: "music-7-min"
+    src: "music-7"
   },
   {
     name: "Ôm Em Lần Cuối",
@@ -133,7 +133,7 @@ let allMusic = [
     name: "Ở Nhà Chán Quó",
     artist: "Taylor - Cukak Remix",
     img: "music-21-min",
-    src: "music-21-min"
+    src: "music-21"
   },
   {
     name: "PRECIOUS",
